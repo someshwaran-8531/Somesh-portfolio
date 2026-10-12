@@ -208,7 +208,7 @@ function App() {
             <h2>Have a role<br />or idea in <span>mind?</span></h2>
             <p className="contact-copy">I’m open to entry-level software development opportunities and conversations about building useful products.</p>
             <div className="contact-actions">
-              <a className="button button-primary" href="mailto:your.email@example.com">Email me <span>↗</span></a>
+              <a className="button button-primary" href="someshwaran8531@gmail.com">Email me <span>↗</span></a>
               <a className="button button-ghost" href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
               <a className="button button-ghost" href="https://github.com/your-github" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
             </div>
