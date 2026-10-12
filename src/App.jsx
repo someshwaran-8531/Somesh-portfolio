@@ -210,7 +210,7 @@ function App() {
             <div className="contact-actions">
               <a className="button button-primary" href="mailto:someshwaran8531@gmail.com">Email me <span>↗</span></a>
               <a className="button button-ghost" href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
-              <a className="button button-ghost" href="https://github.com/your-github" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
+              <a className="button button-ghost" href="https://github.com/someshwaran-8531/Somesh-portfolio" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
             </div>
             <p className="contact-placeholder-note"></p>
           </div>
