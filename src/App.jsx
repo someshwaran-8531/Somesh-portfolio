@@ -212,7 +212,7 @@ function App() {
               <a className="button button-ghost" href="https://www.linkedin.com/in/your-linkedin/" target="_blank" rel="noreferrer">LinkedIn <span>↗</span></a>
               <a className="button button-ghost" href="https://github.com/your-github" target="_blank" rel="noreferrer">GitHub <span>↗</span></a>
             </div>
-            <p className="contact-placeholder-note">Replace the sample email and profile URLs with your real contact details.</p>
+            <p className="contact-placeholder-note"></p>
           </div>
         </section>
       </main>
