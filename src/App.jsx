@@ -179,15 +179,15 @@ function App() {
               <article className="timeline-item">
                 <span className="timeline-dot"></span>
                 <p className="timeline-date">[YEAR – YEAR]</p>
-                <h3>[Your Degree / Qualification]</h3>
-                <p className="timeline-place">[College / University Name]</p>
-                <p className="timeline-detail">[Branch / Specialization] · [CGPA or Percentage, if you want to include it]</p>
+                <h3>[BE]</h3>
+                <p className="timeline-place">[KARPAGAM COLLEGE OF ENGINEERING]</p>
+                <p className="timeline-detail">[COMPUTER SCIENCE AND TECHNOLOGY] · [7.01CGPA]</p>
               </article>
               <article className="timeline-item">
                 <span className="timeline-dot"></span>
-                <p className="timeline-date">TRAINING / INTERNSHIP</p>
+                <p className="timeline-date">TRAINING </p>
                 <h3>Java Full Stack Development</h3>
-                <p className="timeline-place">[Institute / Training Provider] · [Dates]</p>
+                <p className="timeline-place">[JSPIDERS] · [JUN - OCT 2026]</p>
                 <p className="timeline-detail">Learning Java, web technologies, React, and database fundamentals. Replace this text with the exact training completed and technologies covered.</p>
               </article>
               <article className="timeline-item">
