@@ -137,7 +137,7 @@ function App() {
 
         <section className="skills-section" id="skills">
           <div className="section-wrap">
-            <SectionHeading eyebrow="02 / TOOLKIT" title={<>Skills I’m <span>building with.</span></>} description="A growing toolkit for creating useful, maintainable applications." />
+            <SectionHeading eyebrow="TOOLKIT" title={<>Skills I’m <span>building with.</span></>} description="A growing toolkit for creating useful, maintainable applications." />
             <div className="skills-grid">
               {skills.map((group, index) => (
                 <article className="skill-card" key={group.title}>
@@ -152,7 +152,7 @@ function App() {
         </section>
 
         <section className="section-wrap projects-section" id="projects">
-          <SectionHeading eyebrow="03 / SELECTED WORK" title={<>Projects with a <span>purpose.</span></>} description="A selection of projects that reflect my interest in web development and practical problem-solving." />
+          <SectionHeading eyebrow="SELECTED WORK" title={<>Projects with a <span>purpose.</span></>} description="A selection of projects that reflect my interest in web development and practical problem-solving." />
           <div className="projects-list">
             {projects.map((project) => (
               <article className="project-row" key={project.number}>
@@ -167,18 +167,18 @@ function App() {
               </article>
             ))}
           </div>
-          <p className="project-footnote">Add your GitHub repository and live demo links to each project before sharing this portfolio.</p>
+         
         </section>
 
         <section className="education-section" id="education">
           <div className="section-wrap education-grid">
             <div>
-              <SectionHeading eyebrow="04 / EDUCATION" title={<>The foundation <span>so far.</span></>} description="Update the placeholders below with your exact qualification and institution details." />
+              <SectionHeading eyebrow="EDUCATION" title={<>The foundation <span>so far.</span></>}  />
             </div>
             <div className="timeline">
               <article className="timeline-item">
                 <span className="timeline-dot"></span>
-                <p className="timeline-date">[YEAR – YEAR]</p>
+                <p className="timeline-date">[2022 -- 2026]</p>
                 <h3>[BE]</h3>
                 <p className="timeline-place">[KARPAGAM COLLEGE OF ENGINEERING]</p>
                 <p className="timeline-detail">[COMPUTER SCIENCE AND TECHNOLOGY] · [7.01CGPA]</p>
@@ -187,16 +187,10 @@ function App() {
                 <span className="timeline-dot"></span>
                 <p className="timeline-date">TRAINING </p>
                 <h3>Java Full Stack Development</h3>
-                <p className="timeline-place">[JSPIDERS] · [JUN - OCT 2026]</p>
+                <p className="timeline-place">[JSPIDERS] · [JUN - OCT' 2026]</p>
                 <p className="timeline-detail">Learning Java, web technologies, React, and database fundamentals. Replace this text with the exact training completed and technologies covered.</p>
               </article>
-              <article className="timeline-item">
-                <span className="timeline-dot"></span>
-                <p className="timeline-date">JUN – JUL 2023</p>
-                <h3>Python Intern</h3>
-                <p className="timeline-place">BYTS India Limited</p>
-                <p className="timeline-detail">Exposure to Python, data structures and algorithms, libraries, automation, and data analysis.</p>
-              </article>
+              
             </div>
           </div>
         </section>
@@ -204,7 +198,7 @@ function App() {
         <section className="section-wrap contact-section" id="contact">
           <div className="contact-panel">
             <div className="contact-orbit orbit-one"></div><div className="contact-orbit orbit-two"></div>
-            <p className="eyebrow">05 / CONTACT</p>
+            <p className="eyebrow">CONTACT</p>
             <h2>Have a role<br />or idea in <span>mind?</span></h2>
             <p className="contact-copy">I’m open to entry-level software development opportunities and conversations about building useful products.</p>
             <div className="contact-actions">
@@ -219,7 +213,7 @@ function App() {
 
       <footer className="footer section-wrap">
         <a className="brand footer-brand" href="#home"><span className="brand-mark">S<span>.</span></span><span className="brand-name">SOMESH<span>WARAN</span></span></a>
-        <p>Designed with curiosity. Built with React.</p>
+       
         <a href="#home" className="back-top">BACK TO TOP ↑</a>
         <div className="footer-bottom"><span>© {new Date().getFullYear()} Somesh Waran</span><span>JAVA FULL STACK DEVELOPER · FRESHER</span></div>
       </footer>
